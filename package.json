@@ -1,0 +1,23 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Eat Da Burger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carmen Diaz",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "body-parser": "^1.18.3",
+    "bulma": "^0.7.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.38.0"
+  },
+  "devDependencies": {}
+}
