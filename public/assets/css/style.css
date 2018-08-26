@@ -3,9 +3,11 @@
   background: url("../images/burger.jpg") no-repeat fixed;
   background-size: cover;
   opacity: 0.65;
-  /*height: 300px;*/
 }
 .is-danger, warning{
   display: none;
 }
 
+ol.list {
+  padding-left: 20px;
+}

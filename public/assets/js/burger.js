@@ -36,6 +36,8 @@ $(function() {
       var id = $(this).data("id");
       var devoured = $(this).data("devourit");
 
+      event.preventDefault();
+
       var devouredState = {
           devoured: devoured
       };

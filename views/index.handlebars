@@ -2,7 +2,8 @@
     <div class="hero-body">
         <div class="container">
             <h1 class="title">Fresca Burger!</h1>
-            <h4 class="subtitle">Because we all need to make time to devour a burger once in a while</h4>
+            <h4 class="subtitle">Eat-Da-Burger!</h4>
+            <h5>Because we all need to make time to devour a burger once in a while</h5>
         </div>
     </div>
 </section>
@@ -35,16 +36,7 @@
                     </div>
                 </form>
             </div>
-            <div class="column is-one-quarter">
-                <ol>
-                    {{#each burgers}}
-                        {{#if devoured}}
-                            {{> burgers/burger-info devourit=false}}
-                        {{/if}}
-                    {{/each}}
-                </ol>
-
-            </div>
+            {{> burgers/devoured-burgers}}
         </div>
     </div>
 </section>
